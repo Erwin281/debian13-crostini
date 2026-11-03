@@ -1,0 +1,3 @@
+Xephyr -br -fullscreen -resizable :20 &> /dev/null &
+sleep 5
+DISPLAY=:20 startlxde &> /dev/null &
